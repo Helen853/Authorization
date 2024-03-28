@@ -1,8 +1,8 @@
 import UIKit
 
 public class AutorizationTextField: UITextField {
-    public func setupPlaceholder(title: String) -> UITextField {
-        let textField = UITextField()
+    public func setupPlaceholder(title: String) -> AutorizationTextField {
+        let textField = AutorizationTextField()
         textField.placeholder = title
         return textField
     }
